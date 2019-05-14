@@ -1,0 +1,598 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+	html{
+	scroll-behavior: smooth;
+	
+    }
+
+/* ----------------- NAVIGATION BAR STYLING ----------------- */
+.nav {
+	background-color:black;
+  	opacity: 0.75;
+  	list-style-type: none;
+	overflow: hidden;
+	height: 42px;
+	width: 100%;
+	position: fixed;
+	padding-left:10px;
+}
+
+li a {
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 200px;
+	text-transform: uppercase;
+	float: left;
+	display: block;
+	text-decoration: none;
+	padding: 10px 5px;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	
+	
+}
+
+li:first-child {
+	padding-left: 0;
+}
+
+li a:hover{
+  
+  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon3 1.5s ease-in-out infinite alternate;
+	animation: neon3 1.5s ease-in-out infinite alternate;
+	color: lightgreen;
+
+}
+
+li {
+	display: inline-block;
+	/* aligns the text side by side*/
+	margin-right: 50px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 200px;
+	opacity: 1;
+	transition: all 2.5s ease;
+}
+/* --------------------------------------------------------*/
+
+
+/* --------------- TEXT STYLING --------------- */
+h3 {
+	text-align: center;
+	font-size: 100px;
+	font-weight: 200px;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+
+#aboutDescrip {
+	margin: 20px;
+	word-spacing: 5px;
+	line-height: 40px;
+	font-size:1.3em;
+	padding-left: 10px;
+	padding-top:10px;
+	font-weight: 200px;
+	text-align: center;
+	color: white;
+}
+
+.sectionTitles {
+	color: white;
+	text-shadow: black 2px 2px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 200px;
+	font-family: 'Quicksand', sans-serif;
+	padding-top: 200px;
+	text-transform: uppercase;
+	padding: 20%;
+}
+.aboutText {
+	color: white;  
+}
+/* -------------------------------------------- */
+
+
+/* ------------------- PROJECT IMAGES & ANIMATION ------------------------ */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+figure.snip1176 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-top: 50px;
+  top: -240px;
+  min-width: 340px;
+  max-width: 340px;
+  max-height: 200px;
+  min-height: 200px;
+  width: 100%;
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+figure.snip1176 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease-in-out;
+  transition: all 0.45s ease-in-out;
+}
+figure.snip1176 img {
+  max-width: 100%;
+  position: relative;
+  opacity: 0.7;
+}
+figure.snip1176 figcaption {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 13%;
+  right: 13%;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-width: 0px 1px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+figure.snip1176 h2 {
+  padding: 15px 20px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+figure.snip1176 h2 span {
+  font-weight: 800;
+}
+figure.snip1176 .icon,
+figure.snip1176 .caption {
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+}
+figure.snip1176 .icon {
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  top: 0;
+
+}
+figure.snip1176 .caption {
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  bottom: 0;
+}
+figure.snip1176 p,
+figure.snip1176 .icon span {
+  display: table;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  color: rgba(255, 255, 255, 0);
+  font-size: 0.8em;
+}
+figure.snip1176 p:before,
+figure.snip1176 .icon span:before,
+figure.snip1176 p:after,
+figure.snip1176 .icon span:after {
+  position: absolute;
+  height: 1px;
+  content: '';
+  background: white;
+  -webkit-transition: all 0.45s ease-in-out;
+  transition: all 0.45s ease-in-out;
+}
+figure.snip1176 .icon span:before,
+figure.snip1176 .icon span:after {
+  width: 1000%;
+  top: 50%;
+}
+figure.snip1176 .icon span:before {
+  left: -1000%;
+}
+figure.snip1176 .icon span:after {
+  right: -1000%;
+}
+figure.snip1176 i {
+  color: white;
+  font-size: 30px;
+}
+figure.snip1176 p:before,
+figure.snip1176 p:after {
+  width: 150%;
+  bottom: 50%;
+}
+figure.snip1176 p:before {
+  left: -100%;
+}
+figure.snip1176 p:after {
+  right: -100%;
+}
+figure.snip1176 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+figure.snip1176:hover img,
+figure.snip1176.hover img {
+  opacity: 0.15;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+figure.snip1176:hover p,
+figure.snip1176.hover p {
+  opacity: 1;
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+  color: #ffffff;
+}
+figure.snip1176:hover p:before,
+figure.snip1176.hover p:before {
+  left: -150%;
+}
+figure.snip1176:hover p:after,
+figure.snip1176.hover p:after {
+  right: -150%;
+}
+
+.profile {
+	border-radius: 50%;
+	width: 145px;
+	height: 130px;
+}
+/* -------------------------------------------------------- */
+
+
+/* ------------------- PARALLAX STLYING ------------------------- */
+.parallax {
+	min-height: 400px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+#image1 {
+	background-image: url("images/pixel.gif");
+  height: 100vh;
+}
+
+#image2 {
+	background-image: url("images/colorful.gif");
+	
+	
+}
+
+#image3 {
+	background-image: url("images/B.gif");
+}
+
+/* -------------------------------------------------------- */
+
+
+/* ------------------------ CONTAINERS AND STYLING ------------------------------ */
+footer {
+	text-align: center;
+}
+
+#About {
+	background-color: darkseagreen;
+	margin-top: 20px;
+}
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	height: 300px;
+	background-color: darkseagreen;
+		margin-top: 15px;
+		margin-bottom: 15px;
+}
+
+.flex-item {
+	background-color: white;
+	width:25%;
+	height:auto;
+  	margin:40px;
+}
+
+i {
+	width: 100%;
+	float: left;
+	line-height: 180px;
+	text-align: center;
+	vertical-align: bottom;
+	margin-top: 30px;
+	color:#dd4545;
+}
+.servicesText{
+	text-align:center;
+	margin-top: 190px;
+	word-spacing: 5px;
+	line-height: 40px;
+	font-size:1.5em;
+	padding-left: 10px;
+	padding-top:10px;
+	font-weight: 200px
+}
+
+#aboutText {
+	padding-top: 80px;
+	text-align: center;
+	color: white;
+}
+/* -------------------------------------------------------------- */
+
+
+/* -------------------------- CONTACT FORM AND STYLING -------------------------------- */
+#Contact {
+	width: 50%;
+	height: auto;
+	margin: 0 auto;
+	float: right;
+	background: darkseagreen;
+	outline: #000000 3px 3px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 50px;
+	border-radius: 10px;
+}
+
+.contactContainer {
+	width: 500px;
+	height: auto;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+#Contact .contactContainer form input,
+#Contact .contactContainer form textarea {
+	width: 97.4%;
+	height: 30px;
+	padding: 5px 10px;
+	font-size: 12px;
+	color: #999;
+	letter-spacing: 1px;
+	background: #FFF;
+	border: 2px solid #FFF;
+	margin-bottom: 25px;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+#Contact .contactContainer form input:focus,
+#Contact .contactContainer form textarea:focus {
+	border: 2px solid #dd4545;
+	color: #999;
+}
+
+#Contact .contactContainer form textarea {
+	height: 150px;
+}
+
+#Contact .contactContainer form .submit {
+	width: 50%;
+	padding: 5px 10px;
+	font-size: 12px;
+	letter-spacing: 1px;
+	background: black;
+	height: 40px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #FFF;
+	border: 2px solid white;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	transition: all .1s ease-in-out;
+}
+
+#Contact .contactContainer form .submit:hover {
+	color: #FFF;
+	border: 2px solid white;
+	background: #b43838;
+	cursor: pointer;
+}
+
+#Contact .contactContainer form .required {
+	color: #b43838;
+}
+
+#footerText {
+  font-size: 20px;
+  position: relative;
+  top: 400px;
+
+}
+/* -------------------------------------------------------------- */
+
+
+/* -------------- TITLE STYLING AND ANIMATION ---------------------------- */
+
+	.subTitle {
+		color: white;
+		position: relative;
+		top: 350px;
+		font-size: 150%;
+		text-shadow: black 2px 2px;
+	}
+
+
+
+ .mainTitle p {
+	text-align: center;
+	position: relative;
+	top: 350px;
+	font-size: 7em;
+	text-shadow: green 2px 2px;
+
+  }
+  
+ .mainTitle a {
+	text-decoration: none;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	color: white;
+	font-family: Pacifico;
+	-webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+	-moz-animation: neon3 1.5s ease-in-out infinite alternate;
+	animation: neon3 1.5s ease-in-out infinite alternate;
+
+}  
+ 
+ .mainTitle p a:hover {
+	color: #ffffff;
+  }
+  @-webkit-keyframes neon3 {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px seagreen, 0 0 70px seagreen, 0 0 80px seagreen 0 0 100px seagreen, 0 0 150px seagreen;
+	}
+	to {
+	  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px seagreen, 0 0 35px seagreen, 0 0 40px seagreen, 0 0 50px seagreen, 0 0 75px seagreen;
+	}
+  }
+  @keyframes neon3 {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px seagreen, 0 0 70px seagreen, 0 0 80px seagreen, 0 0 100px seagreen, 0 0 150px seagreen;
+	}
+	to {
+	  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px seagreen, 0 0 35px seagreen, 0 0 40px seagreen, 0 0 50px seagreen, 0 0 75px seagreen;
+	}
+  }
+ /* -------------------------------------------------------- */
+
+ /* ------------------------ SOCIAL LINKS AND STYLING ----------------------------- */
+
+ *{
+  box-sizing: border-box;
+}
+
+.socialCard body{
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+	height: 850px;
+}
+
+.socialCard{
+  width: 400px;
+  height: 430px;
+	margin-left: 50px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  background-image: linear-gradient(120deg, darkseagreen 0%, darkseagreen 100%);
+}
+
+.socialImg{
+  height: 300px;
+  width: 300px;
+  margin: 0 50px;
+  top: 50px;
+  position: relative;
+	z-index: 3;
+
+	border-radius: 50px;
+}
+
+.socialCard h2{
+  font-family: tahoma, arial;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 350px;
+  z-index: 2;
+  color: white;
+}
+
+.socialCard a{
+	text-decoration: none;
+  font-size: 28px;
+  color: #f1f1f1;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  transition: 0.4s all;
+  line-height: 58px;
+  cursor: pointer;
+  background: #314652;
+
+}
+.socialCard ul{
+	margin: 170px auto;
+	justify-content: space-around;
+	overflow: hidden;
+  display: flex;
+  max-width: 700px;
+  opacity: 0
+}
+
+.socialCard ul li{
+  z-index: 1;
+  font-family: tahoma, arial;
+  text-align: center;
+  list-style: none;
+  line-height: 50px;
+  font-size: 30px;
+  margin: 10px 0;
+  color: white;
+}
+
+.facebook{
+  background-color: #00acee;
+}
+
+.twitter{
+  background-color: #00acee;
+}
+
+.linkedin{
+  background-color: #4875B4;
+}
+
+.socialCard:hover img{
+  height: 100px;
+  width: 100px;
+  margin: 0 150px;
+	transition: all .5s ease-in-out;
+	
+}
+
+.socialCard:hover h2{
+  top: 165px;
+  transition: all .5s ease-in-out;
+}
+
+.socialCard:hover ul{
+  transition: all 1s ease-in-out;
+	opacity: 1;
+}
+
+.socialCard a:hover {
+	transform: scale(1.5);
+	background-color: white;
+	color: black;
+}
